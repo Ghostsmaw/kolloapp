@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Kolo App",
+    "slug": "kolo_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "facebookScheme": "fb000000000000000",
+    "facebookAppId": "000000000000000",
+    "facebookDisplayName": "your-fb-app-name",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "usesAppleSignIn": true,
+      "bundleIdentifier": "your.package.bundle.id",
+      "supportsTablet": true,
+      "buildNumber": "2.2.1",
+      "config": {
+        "googleMobileAdsAppId": "your-admob-app-id",
+        "googleSignIn": {
+          "reservedClientId": "your-reservedClientId"
+        }
+      }
+    },
+    "android": {
+      "package": "your.package.bundle.id",
+      "versionCode": 221,
+      "permissions": [],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMobileAdsAppId": "your-admob-ads-id",
+        "googleSignIn": {
+          "apiKey": "your-apiKey",
+          "certificateHash": "your-certificateHash"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
