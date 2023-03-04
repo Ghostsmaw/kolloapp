@@ -38,7 +38,7 @@ const Profile = memo(() => {
       {isGuest ? <ProfileGuest /> : <ProfileNormal />}
       <AdBanner />
       {/* MUST-CONFIG */}
-      <Text center={true}>Version 3.20220129.01</Text>
+      <Text center={true}>Version 1.0.0</Text>
     </View>
   );
 });

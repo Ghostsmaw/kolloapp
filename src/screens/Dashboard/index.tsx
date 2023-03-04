@@ -230,6 +230,8 @@ const styles = StyleSheet.create({
   buttonCreate: {
     marginTop: 16,
     marginHorizontal: 86,
+    backgroundColor: "#7206ad",
+    borderColor: "#7206ad"
   },
   latestTransactions: {
     borderRadius: 12,

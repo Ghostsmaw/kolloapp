@@ -95,5 +95,7 @@ const styles = StyleSheet.create({
   },
   button: {
     flex: 1,
+    backgroundColor: "#7206ad",
+    borderColor: "#7206ad"
   },
 });

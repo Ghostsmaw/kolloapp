@@ -3,7 +3,7 @@ const colors = {
   emerald: "#7206ad",
   purplePlum: "#9448BC",
   //Secondary Colors
-  honeyDrew: "#D9EDDF",
+  honeyDrew: "#7206adF",
   bleuDeFrance: "#008BF8",
   naplesYellow: "#FFDD66",
   redCrayola: "#F85F5F",
